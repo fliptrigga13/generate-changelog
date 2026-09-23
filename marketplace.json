@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fliptrigga13-marketplace",
+  "description": "Plugins by fliptrigga13",
+  "owner": {
+    "name": "fliptrigga13"
+  },
+  "plugins": [
+    {
+      "name": "changelog-generator",
+      "version": "1.0.0",
+      "source": "./",
+      "description": "Generate a structured Keep-a-Changelog CHANGELOG.md from git history. Zero dependencies.",
+      "category": "development"
+    }
+  ]
+}
